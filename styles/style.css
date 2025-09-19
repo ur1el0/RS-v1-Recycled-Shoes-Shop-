@@ -1,0 +1,140 @@
+:root 
+{
+	--shoe-cream: #E8DFCA;
+	--shoe-blue: #A1C2BD;
+	--shoe-dark: #708993;
+	--shoe-black: #222;
+	--shoe-gray: #888;
+	--shoe-white: #fff;
+	--shoe-lightblue: #D4ECDD;
+}
+
+body 
+{
+	font-family: 'Montserrat', 'Poppins', 'Segoe UI', Arial, sans-serif;
+	background: linear-gradient(var(--shoe-cream) 0%, var(--shoe-black) 100%);
+	color: var(--shoe-black);
+}
+
+.navbar 
+{
+	font-size: 1.1rem;
+	letter-spacing: 0.01em;
+}
+.navbar .navbar-brand 
+{
+	font-size: 1.7rem;
+	letter-spacing: 0.03em;
+}
+.navbar-light .navbar-nav .nav-link.active 
+{
+	color: var(--shoe-black) !important;
+}
+.navbar-light .navbar-nav .nav-link:hover 
+{
+	color: #7b92a9 !important;
+	background: none;
+	border-radius: 0;
+	transition: none;
+}
+
+.btn-success, .btn-outline-success 
+{
+	border-radius: 2rem;
+	font-weight: 600;
+	letter-spacing: 0.02em;
+	box-shadow: 0 2px 8px var(--shoe-dark);
+	background: var(--shoe-cream);
+	color: var(--shoe-black);
+	border: none;
+	padding-top: 0.5rem;
+}
+
+.btn-success:hover
+{
+	background: var(--shoe-white);
+	color: var(--shoe-black);
+}
+ 
+.btn-outline-success:hover 
+{
+	background: var(--shoe-dark);
+	color: var(--shoe-black);
+}
+
+.card 
+{
+	border-radius: 1.25rem;
+	box-shadow: 0 2px 16px var(--shoe-blue), 0 1.5px 8px var(--shoe-dark);
+	transition: box-shadow 0.2s, transform 0.2s;
+	background: var(--shoe-white);
+	color: var(--shoe-black);
+}
+
+.card:hover 
+{
+	box-shadow: 0 8px 32px var(--shoe-dark), 0 1.5px 8px var(--shoe-black);
+	transform: translateY(-6px) scale(1.03);
+	background: var(--shoe-blue);
+	color: var(--shoe-black);
+}
+
+.login-card:hover, .register-card:hover 
+{
+	box-shadow: 0 2px 16px var(--shoe-blue), 0 1.5px 8px var(--shoe-dark);
+	background: var(--shoe-white);
+	color: var(--shoe-black);
+	transform: none;
+}
+
+.form-control, .form-select 
+{
+	border-radius: 1.5rem;
+	border: 1.5px solid var(--shoe-dark);
+	background: var(--shoe-white);
+	font-size: 1.05em;
+	color: var(--shoe-black);
+}
+.form-control:focus, .form-select:focus 
+{
+	border-color: var(--shoe-blue);
+	box-shadow: 0 0 0 0.15rem var(--shoe-blue);
+}
+
+footer {
+	font-size: 1.05em;
+	color: var(--shoe-white);
+}
+
+
+h1, h2, h3, h4, h5 
+{
+	font-family: 'Montserrat', 'Poppins', 'Segoe UI', Arial, sans-serif;
+	font-weight: 700;
+	letter-spacing: 0.01em;
+}
+
+.blockquote 
+{
+	font-size: 1.1em;
+	color: var(--shoe-black);
+	font-family: 'Roboto', 'Montserrat', 'Poppins', Arial, sans-serif;
+}
+.blockquote-footer 
+{
+	color: var(--shoe-gray);
+}
+
+@media (max-width: 767px) 
+{
+	.navbar .navbar-brand 
+	{
+		font-size: 1.2rem;
+	}
+	.card 
+	{
+		border-radius: 1rem;
+	}
+}
+
+

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-success d-flex align-items-center" href="index.html">
+        <span class="logo-container me-2">
+          <img src="images/logo.png" alt="Logo" style="height:32px;width:auto;">
+        </span>
+        RS
+      </a> 
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center" style="gap: 1rem;">
+          <li class="nav-item"><a href="pages/login.html" class="nav-link">Login</a></li>
+          <li class="nav-item"><a href="pages/product.html" class="nav-link">Shop</a></li>
+          <li class="nav-item"><a href="pages/about.html" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="pages/help.html" class="nav-link">Help & Blog</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero-section position-relative text-white text-center d-flex align-items-center justify-content-center" style="min-height: 110vh; background: url('images/home-screen.jpg') center center/cover no-repeat;">
+    <div class="hero-mask position-absolute top-0 start-0 w-100 h-100" style="background: rgba(0,0,0,0.45); z-index:1;"></div>
+    <div class="container position-relative" style="z-index:2;">
+      <h1 class="display-4 fw-bold mb-3">Love the planet we walk on</h1>
+      <p class="lead mb-4">Sustainable shoes made from recycled materials. Comfort, style, and eco-friendly for everyone.</p>
+      <a href="#bestSellers" class="btn btn-light btn-lg text-dark fw-bold">Shop Shoes</a>
+    </div>
+  </section>
+
+  <section id="bestSellers" class="container py-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+      <h2 class="mb-0">Best Sellers</h2>
+      <a href="pages/product.html" class="btn btn-outline-success">View All</a>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-3">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="/images/womens-candy-city-run.jpg" class="card-img-top" alt="Women's Candy City Run">
+          <div class="card-body text-center">
+            <h5 class="card-title">Women's Candy City Run</h5>
+            <p class="card-text"><span class="fw-bold text-success">$40.00</span></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="/images/men's-moonstone-sneaker.jpg" class="card-img-top" alt="Men's Moonstone Sneaker">
+          <div class="card-body text-center">
+            <h5 class="card-title">Men's Moonstone Sneaker</h5>
+            <p class="card-text fw-bold text-success">$74.90</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="/images/womens-cream-suede.jpg" class="card-img-top" alt="Women's Cream Suede">
+          <div class="card-body text-center">
+            <h5 class="card-title">Women's Cream Suede</h5>
+            <p class="card-text fw-bold text-success">$45.00</p>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-3">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="/images/mens-classic-blue.jpg" class="card-img-top" alt="Men's Classic Blue">
+          <div class="card-body text-center">
+            <h5 class="card-title">Men's Classic Blue Sneaker</h5>
+            <p class="card-text fw-bold text-success">$74.90</p>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section class="container py-5">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <h2 class="mb-3">Selected materials designed for comfort and sustainability</h2>
+          <p>Our shoes are crafted using innovative recycled materials, including repurposed plastics and natural fibers, to ensure comfort and durability while reducing environmental impact. Every pair is designed for all-day wear and supports a more sustainable future—so you can walk with style and purpose.</p>
+        <a href="pages/about.html" class="btn btn-outline-success pb-2">Read More</a>
+      </div>
+      <div class="col-md-6 text-center">
+        <img src="/images/recycled-shoe.jpg" alt="Shoe materials" class="img-fluid rounded shadow">
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5" style="background-color: rgb(233, 233, 184);">
+    <div class="container">
+      <h2 class="text-center mb-4">Customer Feedback</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-4">
+          <div class="card border-0 shadow-sm mb-4">
+            <div class="card-body">
+              <div class="mb-2 text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+              </div>
+              <blockquote class="blockquote mb-0">"Knowing they’re made from recycled materials makes me feel like I can get another gold medal.”</blockquote>
+              <footer class="blockquote-footer mt-2">Gomez M.</footer>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card border-0 shadow-sm mb-4">
+            <div class="card-body">
+              <div class="mb-2 text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <blockquote class="blockquote mb-0">When I wear this, I feel like I could fly Lislah away!”</blockquote>
+              <footer class="blockquote-footer mt-2">Cada R.</footer>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card border-0 shadow-sm mb-4">
+            <div class="card-body">
+              <div class="mb-2 text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <blockquote class="blockquote mb-0">When I wear these, I imagine myself walking with my friend Alyssa.”</blockquote>
+              <footer class="blockquote-footer mt-2">Laja K.</footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white pt-5 pb-3 mt-5">
+    <div class="container">
+      <div class="pt-3 border-top border-secondary d-flex flex-wrap justify-content-between align-items-center">
+        <span>&copy; Copyright 2025 RS. Powered by RS.</span>
+        <a href="pages/privacy.html" class="text-white text-decoration-underline ms-3">Privacy Policy</a>
+      </div>
+    </div>
+  </footer>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

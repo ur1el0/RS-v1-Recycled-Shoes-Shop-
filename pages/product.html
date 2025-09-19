@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="../styles/style.css">
+  <link rel="shortcut icon" href="../bimages/logo.png" type="image/x-icon">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-success d-flex align-items-center" href="../index.html">
+        <span class="logo-container me-2">
+          <img src="../images/logo.png" alt="Logo" style="height:32px;width:auto;">
+        </span>
+        RS
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center" style="gap: 1rem;">
+          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="login.html" class="nav-link">Login</a></li>
+          <li class="nav-item"><a href="help.html" class="nav-link">Help & Blog</a></li>
+          <li class="nav-item">
+            <a href="#" class="nav-link" title="Cart">
+              <i class="bi bi-cart3" style="font-size: 1.5rem;"></i>
+            </a>
+          </li>
+          </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="container py-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+      <h2 class="mb-0">Shop Shoes</h2>
+      <form class="d-flex" role="search" onsubmit="event.preventDefault();">
+        <input class="form-control me-2" type="search" placeholder="Search shoes..." aria-label="Search">
+        <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button>
+      </form>
+    </div>
+
+    <h3 class="mb-4 mt-5 text-dark">Women</h3>
+    <div class="row g-4 mb-5">
+      <div class="col-md-3">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="/images/womens-candy-city-run.jpg" class="card-img-top" alt="Women's Candy City Run">
+          <div class="card-body">
+            <h5 class="card-title text-center">Women's Candy City Run</h5>
+            <button class="btn btn-outline-primary btn-sm mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#details-women1" aria-expanded="false" aria-controls="details-women1">Show Details</button>
+            <div class="collapse" id="details-women1">
+              <p class="mb-1"><strong>Measurements:</strong> US 6-10, Heel Height: 2cm, Width: Medium</p>
+              <p class="mb-1"><strong>Description:</strong> Lightweight recycled mesh upper, cushioned sole, perfect for city running and casual wear.</p>
+            </div>
+            <p class="card-text text-center fw-bold">$40.00</p>
+            <button class="btn btn-success w-100 mt-2" type="button">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="/images/womens-pink-training.jpg" class="card-img-top" alt="Women's Pink Training">
+          <div class="card-body">
+            <h5 class="card-title text-center">Women's Pink Training</h5>
+            <button class="btn btn-outline-primary btn-sm mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#details-women2" aria-expanded="false" aria-controls="details-women2">Show Details</button>
+            <div class="collapse" id="details-women2">
+              <p class="mb-1"><strong>Measurements:</strong> US 5-9, Heel Height: 2.5cm, Width: Wide</p>
+              <p class="mb-1"><strong>Description:</strong> Eco-friendly knit, flexible fit, ideal for training and everyday style.</p>
+            </div>
+            <p class="card-text text-center fw-bold">$54.90</p>
+            <button class="btn btn-success w-100 mt-2" type="button">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="/images/womens-cream-suede.jpg" class="card-img-top" alt="Women's Cream Suede">
+          <div class="card-body">
+            <h5 class="card-title text-center">Women's Cream Suede</h5>
+            <button class="btn btn-outline-primary btn-sm mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#details-women3" aria-expanded="false" aria-controls="details-women3">Show Details</button>
+            <div class="collapse" id="details-women3">
+              <p class="mb-1"><strong>Measurements:</strong> US 6-10, Heel Height: 2cm, Width: Medium</p>
+              <p class="mb-1"><strong>Description:</strong> Soft cream suede, elegant and comfortable, perfect for casual and formal wear.</p>
+            </div>
+            <p class="card-text text-center fw-bold">$45.00</p>
+            <button class="btn btn-success w-100 mt-2" type="button">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="/images/womens-green-training.jpg" class="card-img-top" alt="Women's Green Training">
+          <div class="card-body">
+            <h5 class="card-title text-center">Women's Green Training</h5>
+            <button class="btn btn-outline-primary btn-sm mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#details-women4" aria-expanded="false" aria-controls="details-women4">Show Details</button>
+            <div class="collapse" id="details-women4">
+              <p class="mb-1"><strong>Measurements:</strong> US 5-9, Heel Height: 2.5cm, Width: Wide</p>
+              <p class="mb-1"><strong>Description:</strong> Eco-friendly green knit, flexible fit, ideal for training and everyday style.</p>
+            </div>
+            <p class="card-text text-center fw-bold">$54.90</p>
+            <button class="btn btn-success w-100 mt-2" type="button">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+     
+    <h3 class="mb-4 mt-5 text-dark">Men</h3>
+    <div class="row g-4 mb-5">
+      <div class="col-md-3">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="/images/men's-moonstone-sneaker.jpg" class="card-img-top" alt="Men's Moonstone Sneaker">
+          <div class="card-body">
+            <h5 class="card-title text-center">Men's Moonstone Sneaker</h5>
+            <button class="btn btn-outline-primary btn-sm mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#details-men1" aria-expanded="false" aria-controls="details-men1">Show Details</button>
+            <div class="collapse" id="details-men1">
+              <p class="mb-1"><strong>Measurements:</strong> US 7-12, Heel Height: 3cm, Width: Medium</p>
+              <p class="mb-1"><strong>Description:</strong> Durable recycled leather, supportive arch, designed for all-day comfort and style.</p>
+            </div>
+            <p class="card-text text-center fw-bold">$74.90</p>
+            <button class="btn btn-success w-100 mt-2" type="button">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="/images/mens-earthtone-sneaker.jpg" class="card-img-top" alt="Men's Earth-Tone Sneaker">
+          <div class="card-body">
+            <h5 class="card-title text-center">Men's Earth-Tone Sneaker</h5>
+            <button class="btn btn-outline-primary btn-sm mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#details-men2" aria-expanded="false" aria-controls="details-men2">Show Details</button>
+            <div class="collapse" id="details-men2">
+              <p class="mb-1"><strong>Measurements:</strong> US 8-13, Heel Height: 2.8cm, Width: Wide</p>
+              <p class="mb-1"><strong>Description:</strong> Breathable mesh, earth-tone accents, perfect for walking and casual outings.</p>
+            </div>
+            <p class="card-text text-center fw-bold">$74.90</p>
+            <button class="btn btn-success w-100 mt-2" type="button">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="/images/mens-classic-blue.jpg" class="card-img-top" alt="Men's Classic Blue">
+          <div class="card-body">
+            <h5 class="card-title text-center">Men's Classic Blue Sneaker</h5>
+            <button class="btn btn-outline-primary btn-sm mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#details-men3" aria-expanded="false" aria-controls="details-men3">Show Details</button>
+            <div class="collapse" id="details-men3">
+              <p class="mb-1"><strong>Measurements:</strong> US 7-12, Heel Height: 3cm, Width: Medium</p>
+              <p class="mb-1"><strong>Description:</strong> Classic blue sneaker, durable and stylish, made for everyday comfort.</p>
+            </div>
+            <p class="card-text text-center fw-bold">$74.90</p>
+            <button class="btn btn-success w-100 mt-2" type="button">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="/images/mens-navy-running.jpg" class="card-img-top" alt="Men's Navy Running">
+          <div class="card-body">
+            <h5 class="card-title text-center">Men's Navy Running Shoes</h5>
+            <button class="btn btn-outline-primary btn-sm mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#details-men4" aria-expanded="false" aria-controls="details-men4">Show Details</button>
+            <div class="collapse" id="details-men4">
+              <p class="mb-1"><strong>Measurements:</strong> US 8-13, Heel Height: 2.8cm, Width: Wide</p>
+              <p class="mb-1"><strong>Description:</strong> Navy running shoe, breathable mesh, designed for performance and comfort.</p>
+            </div>
+            <p class="card-text text-center fw-bold">$74.90</p>
+            <button class="btn btn-success w-100 mt-2" type="button">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white pt-5 pb-3 mt-5">
+    <div class="container">
+      <div class="pt-3 border-top border-secondary d-flex flex-wrap justify-content-between align-items-center">
+        <span>&copy; Copyright 2025 RS. Powered by RS.</span>
+          <a href="privacy.html" class="text-white text-decoration-underline ms-3">Privacy Policy</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
